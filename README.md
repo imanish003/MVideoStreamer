@@ -1,7 +1,7 @@
 # MVideoStreamer
 This is a copy protected video streaming app. This app encrypts the video such that nobody will be able to copy the content and will be able to view it offline. Link of the video is not accessible by the user.
 
-##### This project contains three different parts
+### This project contains three different parts
 1. Java File to generate encrypted video
 2. Google cloud Endpoint module(GCE)
 3. Android Application
@@ -15,3 +15,6 @@ The app contains two activities. **MainActivity** and **FetchingVideoData**.
 
 FetchingVideoData Activity is used to get URL and Key from the GCE securely.
 MainActivity uses this URL and key to stream the Encrypted video which is stored on the server in encrypted form.This activity uses LibMedia library for streaming encrypted video.
+
+
+![alt tag](https://github.com/Gr8manish/MVideoStreamer/blob/master/ScreenShots/one.jpg "MVideoStreamer") ![alt tag](https://github.com/Gr8manish/MVideoStreamer/blob/master/ScreenShots/two.jpg "MVideoStreamer") ![alt tag](https://github.com/Gr8manish/MVideoStreamer/blob/master/ScreenShots/three.jpg "MVideoStreamer")
